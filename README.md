@@ -48,26 +48,17 @@ venv\Scripts\activate
 # Mac/Linux
 source venv/bin/activate
 3️⃣ Install dependencies
-
-bash
-Copy
-Edit
 pip install -r requirements.txt
+
 4️⃣ Get OMDb API Key
 
 Visit OMDb API and get a free API key.
 
 Create a .env file and add your API key:
 
-ini
-Copy
-Edit
 OMDB_API_KEY=your_api_key_here
-5️⃣ Run the app
 
-bash
-Copy
-Edit
+5️⃣ Run the app
 streamlit run app.py
 
 
